@@ -8,7 +8,7 @@ También podría permitir conexiones locales (http://localhost:4200) para desarr
  */
 const io = require('socket.io')(server, {
   cors: {
-    origin: 'http://localhost:4200', // URL permitida
+    origin: 'https://harmonious-fox-f44c67.netlify.app', // URL permitida
     methods: ['GET', 'POST'], // Métodos HTTP permitidos
   },
     // cors: {
